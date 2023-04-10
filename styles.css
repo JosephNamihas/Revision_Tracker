@@ -1,18 +1,52 @@
-.todo {
-    border: 2px solid black;
-}
 
-
-.doing {
-    border: 2px solid black;
+:root {
 
 }
 
-.done {
-    border: 2px solid black;
+/* -- NAVBAR -- */
 
+
+
+/* -- JUMBOTRON -- */
+
+
+
+/* -- LIST -- */
+
+h1 {
+    text-align: center;
 }
 
 .container {
     margin-top: 5%;
+}
+
+.todo {
+    border: 2px solid black;
+}
+
+.todo-heading {
+    font-weight: bold;
+}
+
+.doing {
+    border: 2px solid black;
+}
+
+.doing-heading {
+    font-weight: bold;
+}
+
+.done {
+    border: 2px solid black;
+}
+
+.done-heading {
+    font-weight: bold;
+}
+
+/* -- FOOTER -- */
+
+.footer-buttons {
+    border: 2px solid black;
 }

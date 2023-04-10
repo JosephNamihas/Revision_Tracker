@@ -9,13 +9,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
-    <title>Three Column Bootstrap Template</title>
+    <title>Revision Tracker</title>
 </head>
 <body>
-    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Revision Tracker</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#lists">Lists<span class="sr-only"></span></a>
+            <a class="nav-item nav-link" href="#understanding">Understanding</a>
+            <a class="nav-item nav-link" href="#bib">Bibliography</a>
+
+          </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Revision Tracker</h1>
+          <p class="lead">A handy tool to manage your learning and understanding</p>
+        </div>
+      </div>
+
+    <div id="lists" class="container">
         <div class="row">
             <div class="todo col-md-3">
-                <p>ToDo:</p>
+                <p class="todo-heading">ToDo:</p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
                     <li>Aliquam tincidunt mauris eu risus.</li>
@@ -34,7 +53,7 @@
                   
             </div>
             <div class="doing col-md-6">
-                <p>Currently Learning:</p>
+                <p class ="doing-heading">Currently Learning:</p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
                     <li>Aliquam tincidunt mauris eu risus.</li>
@@ -53,7 +72,7 @@
                   
             </div>
             <div class="done col-md-3">
-                <p>Done:</p>
+                <p class = "done-heading">Done:</p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
                     <li>Aliquam tincidunt mauris eu risus.</li>
@@ -74,16 +93,22 @@
         </div>
     </div>
 
-
-
-
-
 <footer>
-    <div></div>
+    <div class="container footer-buttons">
+        <div class ="row">
+            <div class ="col-md-12">
+                <p>Buttons Here</p>
+            </div>
+        </div>
+    </div>
 </footer>
 
-    </body>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVz
+    <script src="/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVz"></script>
+</body>
+
+</html>
