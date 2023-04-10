@@ -1,0 +1,18 @@
+.todo {
+    border: 2px solid black;
+}
+
+
+.doing {
+    border: 2px solid black;
+
+}
+
+.done {
+    border: 2px solid black;
+
+}
+
+.container {
+    margin-top: 5%;
+}
