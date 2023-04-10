@@ -5,11 +5,28 @@
 
 /* -- NAVBAR -- */
 
+.navigation{
+    background-color: #094074;
+}
+
+.navigation a {
+    color: white;
+}
 
 
 /* -- JUMBOTRON -- */
 
+.jumbotron-fluid p {
+    text-align: center;
+}
 
+.jumbotron-fluid {
+    background-color: #D4AF37;
+    color: black;
+    border: 1px solid white;
+    border-bottom: 2px solid black !important;
+    
+}
 
 /* -- LIST -- */
 
@@ -19,6 +36,10 @@ h1 {
 
 .container {
     margin-top: 5%;
+}
+
+.main-body {
+    background-image: url("assets/paper.jpg") !important;
 }
 
 .todo {
@@ -45,8 +66,6 @@ h1 {
     font-weight: bold;
 }
 
+
 /* -- FOOTER -- */
 
-.footer-buttons {
-    border: 2px solid black;
-}
