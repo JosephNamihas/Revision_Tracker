@@ -28,6 +28,25 @@
     
 }
 
+/*-- FORM -- */
+
+#form {
+    justify-content: center;
+}
+
+#input-item {
+
+}
+
+#submit-item {
+    width: auto;
+}
+
+#radio-buttons {
+    display: flex;
+    justify-content: center;
+}
+
 /* -- LIST -- */
 
 h1 {
